@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { background: #0a0a0f; color: #e2e8f0; font-family: -apple-system, system-ui, sans-serif; }
+::-webkit-scrollbar { width: 6px; } 
+::-webkit-scrollbar-track { background: #13131a; }
+::-webkit-scrollbar-thumb { background: #1e1e2e; border-radius: 3px; }
+.prose { max-width: none; }
+.prose pre { background: #0d0d14; border: 1px solid #1e1e2e; border-radius: 8px; }
